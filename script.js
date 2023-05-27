@@ -1,4 +1,7 @@
 $(document).ready(function () {
+
+  $(".loader").fadeOut()
+
   let scrollTop = $(window).scrollTop()
   function sectionAnimations() {
     if(scrollTop > $(".services").offset().top - 600) {
